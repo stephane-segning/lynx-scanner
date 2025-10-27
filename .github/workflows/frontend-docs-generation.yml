@@ -28,7 +28,7 @@ jobs:
         run: yarn run convert-md-to-pdf
 
       - name: Upload PDF artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: documentations
           path: ./docs/**/*.pdf
